@@ -1,0 +1,2 @@
+# hugo
+Personal AI assistant

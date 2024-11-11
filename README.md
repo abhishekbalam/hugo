@@ -10,32 +10,31 @@ AIML is a markup language, similar to XML, which is at the core of the applicati
 
 It is used to define the responses to questions as given below:
 
-{% highlight xml %}
-<pre>
-<category>
+<samp>
+
+    <category>
     <pattern>HELLO</pattern>
     <template>
         Well, hello!
     </template>
-</category>
-<category>
-    <pattern>WHAT ARE YOU</pattern>
-    <template>
-        I'm a bot, silly!
-    </template>
-</category>
-<category>
-    <pattern>HOW DID I *</pattern>
-    <template>
-    <random>
-        <li>I'm not sure I wasn't paying a bit of attention</li>
-        <li>Well you see</li>
-        <li>I do not recall</li>
-    </random>
-    </template>
-</category>
-{% endhighlight %}
-</pre>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DID I *</pattern>
+        <template>
+        <random>
+            <li>I'm not sure I wasn't paying a bit of attention</li>
+            <li>Well you see</li>
+            <li>I do not recall</li>
+        </random>
+        </template>
+    </category>
+</samp>
 
 # Features
 

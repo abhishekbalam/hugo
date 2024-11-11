@@ -11,6 +11,7 @@ AIML is a markup language, similar to XML, which is at the core of the applicati
 It is used to define the responses to questions as given below:
 
 {% highlight xml %}
+<pre>
 <category>
     <pattern>HELLO</pattern>
     <template>
@@ -34,7 +35,7 @@ It is used to define the responses to questions as given below:
     </template>
 </category>
 {% endhighlight %}
-
+</pre>
 
 # Features
 
